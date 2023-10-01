@@ -1,0 +1,4 @@
+ipykernel==6.25.2
+pip-chill==1.0.3
+pygad==3.2.0
+streamlit==1.27.1

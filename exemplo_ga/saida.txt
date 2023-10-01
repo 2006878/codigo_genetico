@@ -1,0 +1,238 @@
+Geração 1
+Melhor fitness: 309321.3
+Geração 2
+Melhor fitness: 309321.3
+Geração 3
+Melhor fitness: 309487.70000000007
+Geração 4
+Melhor fitness: 347282.6
+Geração 5
+Melhor fitness: 347282.6
+Geração 6
+Melhor fitness: 347282.6
+Geração 7
+Melhor fitness: 347282.6
+Geração 8
+Melhor fitness: 347282.6
+Geração 9
+Melhor fitness: 347282.6
+Geração 10
+Melhor fitness: 347282.6
+Geração 11
+Melhor fitness: 347758.66
+Geração 12
+Melhor fitness: 347758.66
+Geração 13
+Melhor fitness: 348316.36
+Geração 14
+Melhor fitness: 348316.36
+Geração 15
+Melhor fitness: 349026.16000000003
+Geração 16
+Melhor fitness: 349026.16000000003
+Geração 17
+Melhor fitness: 349026.16000000003
+Geração 18
+Melhor fitness: 349026.16000000003
+Geração 19
+Melhor fitness: 349221.16
+Geração 20
+Melhor fitness: 349221.16
+Geração 21
+Melhor fitness: 349221.16
+Geração 22
+Melhor fitness: 349221.16
+Geração 23
+Melhor fitness: 349221.16
+Geração 24
+Melhor fitness: 349221.16
+Geração 25
+Melhor fitness: 349221.16
+Geração 26
+Melhor fitness: 349221.16
+Geração 27
+Melhor fitness: 349221.16
+Geração 28
+Melhor fitness: 349221.16
+Geração 29
+Melhor fitness: 353639.86000000004
+Geração 30
+Melhor fitness: 353639.86000000004
+-----------------------------------
+Balanço inicial: R$ 0.00
+--------------- Dia 1 ---------------
+Ação realizada: Investimento.
+0.2 de juros por 5 dias.
+Entrada do caixa: R$ 3000.00
+Saída do caixa: R$ 2000.00
+Balanço no final do dia: R$ 1000.00
+--------------- Dia 2 ---------------
+Ação realizada: Empréstimo.
+0.2 de juros por 3 dias.
+Entrada do caixa: R$ 1000.00
+Saída do caixa: R$ 3000.00
+Balanço no final do dia: R$ -2000.00
+--------------- Dia 3 ---------------
+Nenhuma ação realizada.
+Entrada do caixa: R$ 2000.00
+Saída do caixa: R$ 2000.00
+Balanço no final do dia: R$ 0.00
+--------------- Dia 4 ---------------
+Ação realizada: Investimento.
+0.2 de juros por 5 dias.
+Entrada do caixa: R$ 4000.00
+Saída do caixa: R$ 3000.00
+Balanço no final do dia: R$ 1000.00
+--------------- Dia 5 ---------------
+Ação realizada: Investimento.
+0.2 de juros por 5 dias.
+Entrada do caixa: R$ 1500.00
+Saída do caixa: R$ -2200.00
+Balanço no final do dia: R$ 3700.00
+--------------- Dia 6 ---------------
+Ação realizada: Investimento.
+0.1 de juros por 3 dias.
+Entrada do caixa: R$ 6000.00
+Saída do caixa: R$ 1400.00
+Balanço no final do dia: R$ 4600.00
+--------------- Dia 7 ---------------
+Ação realizada: Investimento.
+0.1 de juros por 3 dias.
+Entrada do caixa: R$ 2000.00
+Saída do caixa: R$ 1800.00
+Balanço no final do dia: R$ 200.00
+--------------- Dia 8 ---------------
+Ação realizada: Investimento.
+0.2 de juros por 5 dias.
+Entrada do caixa: R$ 5000.00
+Saída do caixa: R$ 4000.00
+Balanço no final do dia: R$ 1000.00
+--------------- Dia 9 ---------------
+Ação realizada: Investimento.
+0.2 de juros por 5 dias.
+Entrada do caixa: R$ 11480.00
+Saída do caixa: R$ 2500.00
+Balanço no final do dia: R$ 8980.00
+--------------- Dia 10 ---------------
+Ação realizada: Investimento.
+0.2 de juros por 5 dias.
+Entrada do caixa: R$ 11360.00
+Saída do caixa: R$ 2200.00
+Balanço no final do dia: R$ 9160.00
+--------------- Dia 11 ---------------
+Ação realizada: Empréstimo.
+0.2 de juros por 3 dias.
+Entrada do caixa: R$ 1900.00
+Saída do caixa: R$ 2200.00
+Balanço no final do dia: R$ -300.00
+--------------- Dia 12 ---------------
+Ação realizada: Investimento.
+0.1 de juros por 3 dias.
+Entrada do caixa: R$ 1800.00
+Saída do caixa: R$ 1000.00
+Balanço no final do dia: R$ 800.00
+--------------- Dia 13 ---------------
+Ação realizada: Investimento.
+0.2 de juros por 5 dias.
+Entrada do caixa: R$ 7000.00
+Saída do caixa: R$ 500.00
+Balanço no final do dia: R$ 6500.00
+--------------- Dia 14 ---------------
+Ação realizada: Investimento.
+0.1 de juros por 3 dias.
+Entrada do caixa: R$ 19960.00
+Saída do caixa: R$ 520.00
+Balanço no final do dia: R$ 19440.00
+--------------- Dia 15 ---------------
+Ação realizada: Investimento.
+0.2 de juros por 5 dias.
+Entrada do caixa: R$ 27360.00
+Saída do caixa: R$ 7000.00
+Balanço no final do dia: R$ 20360.00
+--------------- Dia 16 ---------------
+Ação realizada: Investimento.
+0.2 de juros por 5 dias.
+Entrada do caixa: R$ 1900.00
+Saída do caixa: R$ 1300.00
+Balanço no final do dia: R$ 600.00
+--------------- Dia 17 ---------------
+Ação realizada: Investimento.
+0.1 de juros por 3 dias.
+Entrada do caixa: R$ 28172.00
+Saída do caixa: R$ 1800.00
+Balanço no final do dia: R$ 26372.00
+--------------- Dia 18 ---------------
+Ação realizada: Investimento.
+0.1 de juros por 3 dias.
+Entrada do caixa: R$ 16200.00
+Saída do caixa: R$ 2600.00
+Balanço no final do dia: R$ 13600.00
+--------------- Dia 19 ---------------
+Ação realizada: Empréstimo.
+0.1 de juros por 5 dias.
+Entrada do caixa: R$ 1900.00
+Saída do caixa: R$ 2800.00
+Balanço no final do dia: R$ -900.00
+--------------- Dia 20 ---------------
+Ação realizada: Investimento.
+0.2 de juros por 5 dias.
+Entrada do caixa: R$ 79503.60
+Saída do caixa: R$ 2800.00
+Balanço no final do dia: R$ 76703.60
+--------------- Dia 21 ---------------
+Ação realizada: Investimento.
+0.1 de juros por 3 dias.
+Entrada do caixa: R$ 21580.00
+Saída do caixa: R$ 2900.00
+Balanço no final do dia: R$ 18680.00
+--------------- Dia 22 ---------------
+Ação realizada: Investimento.
+0.1 de juros por 3 dias.
+Entrada do caixa: R$ 2000.00
+Saída do caixa: R$ 1100.00
+Balanço no final do dia: R$ 900.00
+--------------- Dia 23 ---------------
+Ação realizada: Investimento.
+0.1 de juros por 3 dias.
+Entrada do caixa: R$ 3900.00
+Saída do caixa: R$ 2800.00
+Balanço no final do dia: R$ 1100.00
+--------------- Dia 24 ---------------
+Ação realizada: Investimento.
+0.1 de juros por 3 dias.
+Entrada do caixa: R$ 26584.00
+Saída do caixa: R$ 1350.00
+Balanço no final do dia: R$ 25234.00
+--------------- Dia 25 ---------------
+Ação realizada: Investimento.
+0.2 de juros por 5 dias.
+Entrada do caixa: R$ 157777.20
+Saída do caixa: R$ 2800.00
+Balanço no final do dia: R$ 154977.20
+--------------- Dia 26 ---------------
+Ação realizada: Investimento.
+0.1 de juros por 3 dias.
+Entrada do caixa: R$ 4930.00
+Saída do caixa: R$ 2000.00
+Balanço no final do dia: R$ 2930.00
+--------------- Dia 27 ---------------
+Ação realizada: Investimento.
+0.1 de juros por 3 dias.
+Entrada do caixa: R$ 34604.20
+Saída do caixa: R$ 1000.00
+Balanço no final do dia: R$ 33604.20
+--------------- Dia 28 ---------------
+Nenhuma ação realizada.
+Entrada do caixa: R$ 4800.00
+Saída do caixa: R$ 1900.00
+Balanço no final do dia: R$ 2900.00
+--------------- Dia 29 ---------------
+Nenhuma ação realizada.
+Entrada do caixa: R$ 5809.00
+Saída do caixa: R$ 2000.00
+Balanço no final do dia: R$ 3809.00
+--------------- Dia 30 ---------------
+Nenhuma ação realizada.
+Entrada do caixa: R$ 356639.86
+Saída do caixa: R$ 3000.00
+Balanço no final do dia: R$ 353639.86
