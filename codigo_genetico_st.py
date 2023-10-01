@@ -8,7 +8,7 @@ from PIL import Image
 import params
 
 # Configurações da página Streamlit
-st.set_page_config(page_title="Simulações de Fluxo de Caixa", layout="wide")
+st.set_page_config(page_title="Algorítimo Genético", layout="wide")
 
 # Adicionando a logo da empresa
 logo_path = "logo_zayon.jpeg"  # Substitua pelo caminho real para a sua logo
