@@ -2,6 +2,7 @@ import streamlit as st
 import random
 import copy
 import numpy as np
+import matplotlib.pyplot as plt
 from PIL import Image
 
 # Importando o arquivo params.py (ajuste o caminho conforme necessário)
@@ -36,7 +37,6 @@ def adicionar_info_dia(acao, tipo, entrada, saida):
     informacoes_diarias.append(
         {"ação": acao, "tipo": tipo, "entrada": entrada, "saida": saida}
     )
-
 
 def calcular_fitness(cromossomo, registrar_acoes=False):
     balanco = 0
@@ -86,7 +86,6 @@ def calcular_fitness(cromossomo, registrar_acoes=False):
 
     return balanco
 
-
 def selecionar_pais(fitness_cromossomos):
     if max(fitness_cromossomos) > min(fitness_cromossomos):
         fitness_cromossomos = (fitness_cromossomos - min(fitness_cromossomos)) / (
@@ -104,20 +103,17 @@ def selecionar_pais(fitness_cromossomos):
     pai2 = np.argmin(roleta < sorteio)
     return pai1, pai2
 
-
 def mutacao(cromossomos):
     sorteios = np.random.random(cromossomos.shape[0])
     indices = np.where(sorteios < PROB_MUTACAO)[0]
     posicoes = np.random.randint(cromossomos.shape[1], size=indices.shape[0])
     cromossomos[indices, posicoes] = 1 - cromossomos[indices, posicoes]
 
-
 def gerar_solucoes_iniciais():
     cromossomos = np.random.randint(
         0, 2, (N_CROMOSSOMOS, TOTAL_DIAS * N_VARS_DIA)
     )
     return cromossomos
-
 
 def crossover(cromossomos, fitness_cromossomos):
     filhos = []
@@ -136,7 +132,6 @@ def crossover(cromossomos, fitness_cromossomos):
         filhos.append(filho1)
         filhos.append(filho2)
     return np.array(filhos)
-
 
 def mostrar_solucao():
     st.write("### Resultado Final:")
@@ -160,6 +155,14 @@ def mostrar_solucao():
         st.write(f"- Balanço no final do dia: R$ {balanco:.2f}")
         st.write("----")
 
+def plot_fitness_evolution(fitness_history):
+    plt.figure(figsize=(10, 6))
+    plt.plot(fitness_history, marker='o', linestyle='-', color='b')
+    plt.title('Evolução do Fitness ao Longo das Gerações')
+    plt.xlabel('Geração')
+    plt.ylabel('Fitness')
+    st.pyplot(plt)
+
 # Interface do Streamlit
 st.title("Otimização de caixa usando Algoritmo Genético")
 
@@ -179,18 +182,24 @@ if st.button("Executar Análise"):
     melhor_fitness = max(fitness_cromossomos)
     melhor_cromossomo = cromossomos[np.argmax(fitness_cromossomos)]
 
+    fitness_history = [melhor_fitness]
+
     for gen in range(N_GERACOES):
         cromossomos = crossover(cromossomos, fitness_cromossomos)
         mutacao(cromossomos)
         fitness_cromossomos = np.array([calcular_fitness(crom)
                                         for crom in cromossomos])
-        st.write("Geração", gen+1)
+        # st.write("Geração", gen+1)
 
         if max(fitness_cromossomos) > melhor_fitness:
             melhor_fitness = max(fitness_cromossomos)
             melhor_cromossomo = cromossomos[np.argmax(fitness_cromossomos)]
 
-        st.write("Melhor fitness:", melhor_fitness)
+        fitness_history.append(melhor_fitness)
+
+        # st.write("Melhor fitness:", melhor_fitness)
+
+    plot_fitness_evolution(fitness_history)
 
     st.write("-----------------------------------\nBalanço inicial: R$ 0.00")
 
